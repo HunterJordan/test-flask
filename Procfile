@@ -1,1 +1,1 @@
-web: gunicorn song_suggester:run
+web: gunicorn song_suggester:APP
