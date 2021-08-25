@@ -1,7 +1,7 @@
 '''Song_Suggester app logic'''
 import os
 from flask import Flask, render_template, request
-from .models import *
+from .unnecessary_models import *
 from .spotify_client import *
 
 
